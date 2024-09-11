@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+}
+#inbox1,#inbox2{
+    border: solid 1px;
+    height: 150px;
+   
+}
+#inbox1{
+    width: 150px;
+} 
+#inbox2{
+    width: 1800px;
+    text-align: center;
+}
+#clgname{
+    font-size: 60px;
+    color: red;
+}
+#scrollclg{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 177px;
+    float: left;
+    text-align: center;
+    line-height:48px ;
+    background-color: violet;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    border-radius:10px ;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: skyblue;
+    font-size: 23px;
+    text-decoration:none ;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: #ffa500;
+}
+.outerbox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+    z-index: -1;
+}
+#in1{
+    width: 800px;
+    background-image:url(bits1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes imgchange{
+    10%{
+        background-image: url(bits2.jpg);
+    }
+    20%{
+        background-image: url(bits3.jpg);
+    }
+    30%{
+        background-image: url(bits4.jpg);
+    }
+    40%{
+        background-image: url(bits5.jpg);
+    }
+    50%{
+        background-image: url(bits6.jpg);
+    }
+    60%{
+        background-image: url(bits7.jpg);
+    }
+}
+#in2,#in3{
+    width: 300px;
+    text-align: center;
+
+}
+#placebox{
+    border: solid 1px;
+    height: 250px;
+}
+#placements{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
